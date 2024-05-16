@@ -25,7 +25,7 @@ test.describe('FORM PAGE', () => {
   })
 })
 
-test.describe.only('FORM PAGE TYPE', () => {
+test.describe('FORM PAGE TYPE', () => {
   test('Fill all fields', async ({page}) => {
        await page.goto('https://www.lambdatest.com/selenium-playground/input-form-demo')
 
